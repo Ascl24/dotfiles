@@ -1,0 +1,91 @@
+@import "macchiato.css";
+@import "custom.css";
+* {
+  font-family: JetBrains Mono, SymbolsNerdFont;
+  transition-timing-function: ease-in;
+  min-height: 0px;
+}
+window#waybar, window#waybar.empty {
+  background-color: transparent;
+}
+
+.modules-right {
+  margin-top: 5px;
+  margin-right: 5px;
+  /* color: @lavender; */
+  /* border-color: #928374; */
+  border-color: transparent;
+  border-width: 1px;
+  /* background-color: #282828; */
+  background-color: @lowlight;
+  border-style: solid;
+  /* border-radius: 1em;  */
+  color: @highlight;  
+  font-size: 14px;
+}
+
+#workspaces,
+#clock,
+#battery,
+#pulseaudio
+{
+  color: @highlight;  /* gruvbox text color*/
+  border-style: solid;
+}
+.modules-center {
+  background-color: @transparent;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  min-width: 0;
+}
+#clock.clock2 {
+  background-color: @lowlight;
+  margin-top: 5px;
+  padding: 0px 6px 0px 6px;
+}
+#submap {
+  color: @highlight;
+  padding: 0px 6px 0px 6px;
+  /* background-color: @mantle; */
+  background-color: @lowlight;
+  border-style: solid;
+  border-width: 1px;
+  /* border-radius: 1em; */
+  animation-duration: 1s;
+}
+#workspaces {
+  padding: 0 5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  /* border-radius: 1em; */
+  border-width: 1px;
+  /* border-color: #928374; */
+  border-color: transparent;
+  background-color: @lowlight;
+  font-size: 20px;
+}
+#workspaces button {
+  color: @highlight;
+}
+#workspaces button.persistent {
+  color: @sexmaster;
+}
+#workspaces button.active {
+  border-style: outset;
+  border-color: @lavender;
+  border-width: 2px;
+  color: @highlight;
+}
+#workspaces button.urgent {
+  border-style: outset;
+  border-color: @maroon;
+  border-width: 3px;
+}
+#clock,
+#battery,
+#pulseaudio
+{
+  min-width: 75px;
+  margin-left: 5px;
+}
