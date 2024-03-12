@@ -1,7 +1,7 @@
 @import "macchiato.css";
 @import "custom.css";
 * {
-  font-family: JetBrains Mono, SymbolsNerdFont;
+  font-family: Cantarell, SymbolsNerdFont;
   transition-timing-function: ease-in;
   min-height: 0px;
 }
@@ -65,11 +65,11 @@ window#waybar, window#waybar.empty {
   background-color: @lowlight;
   font-size: 20px;
 }
-#workspaces button {
-  color: @highlight;
-}
 #workspaces button.persistent {
   color: @sexmaster;
+}
+#workspaces button {
+  color: @highlight;
 }
 #workspaces button.active {
   border-style: outset;
