@@ -15,9 +15,8 @@ window#waybar, window#waybar.empty {
   /* color: @lavender; */
   /* border-color: #928374; */
   border-color: transparent;
-  border-width: 1px;
   /* background-color: #282828; */
-  background-color: @lowlight;
+  background-color: rgba(14, 14, 15, 0.8);;
   border-style: solid;
   /* border-radius: 1em;  */
   color: @highlight;  
@@ -39,7 +38,7 @@ window#waybar, window#waybar.empty {
   min-width: 0;
 }
 #clock.clock2 {
-  background-color: @lowlight;
+  background-color: rgba(14, 14, 15, 0.8);;
   margin-top: 5px;
   padding: 0px 6px 0px 6px;
 }
@@ -47,7 +46,7 @@ window#waybar, window#waybar.empty {
   color: @highlight;
   padding: 0px 6px 0px 6px;
   /* background-color: @mantle; */
-  background-color: @lowlight;
+  background-color: rgba(14, 14, 15, 0.8);;
   border-style: solid;
   border-width: 1px;
   /* border-radius: 1em; */
@@ -62,14 +61,11 @@ window#waybar, window#waybar.empty {
   border-width: 1px;
   /* border-color: #928374; */
   border-color: transparent;
-  background-color: @lowlight;
-  font-size: 20px;
+  background-color: rgba(14, 14, 15, 0.5);
+  font-size: 18px;
 }
 #workspaces button.persistent {
   color: @sexmaster;
-}
-#workspaces button {
-  color: @highlight;
 }
 #workspaces button.active {
   border-style: outset;
