@@ -16,9 +16,9 @@ window#waybar, window#waybar.empty {
   /* border-color: #928374; */
   border-color: transparent;
   /* background-color: #282828; */
-  background-color: rgba(14, 14, 15, 0.8);;
+  background-color: #141415;
   border-style: solid;
-  /* border-radius: 1em;  */
+  border-radius: 2em; 
   color: @highlight;  
   font-size: 14px;
 }
@@ -30,6 +30,7 @@ window#waybar, window#waybar.empty {
 {
   color: @highlight;  /* gruvbox text color*/
   border-style: solid;
+  padding: 2px 2px 2px 2px;
 }
 .modules-center {
   background-color: @transparent;
@@ -38,15 +39,16 @@ window#waybar, window#waybar.empty {
   min-width: 0;
 }
 #clock.clock2 {
-  background-color: rgba(14, 14, 15, 0.8);;
+  background-color: #141415;
   margin-top: 5px;
-  padding: 0px 6px 0px 6px;
+  padding: 2px 20px 2px 20px;
+  border-radius: 2em;
 }
 #submap {
   color: @highlight;
   padding: 0px 6px 0px 6px;
   /* background-color: @mantle; */
-  background-color: rgba(14, 14, 15, 0.8);;
+  background-color: #141415;
   border-style: solid;
   border-width: 1px;
   /* border-radius: 1em; */
@@ -57,26 +59,18 @@ window#waybar, window#waybar.empty {
   margin-left: 5px;
   margin-right: 10px;
   margin-top: 5px;
-  /* border-radius: 1em; */
+  border-radius: 1em;
   border-width: 1px;
   /* border-color: #928374; */
   border-color: transparent;
-  background-color: rgba(14, 14, 15, 0.5);
+  background-color: #141415;
   font-size: 18px;
 }
-#workspaces button.persistent {
-  color: @sexmaster;
-}
 #workspaces button.active {
-  border-style: outset;
-  border-color: @lavender;
-  border-width: 2px;
-  color: @highlight;
+  color: #add8e6;
 }
 #workspaces button.urgent {
-  border-style: outset;
-  border-color: @maroon;
-  border-width: 3px;
+  color: red;
 }
 #clock,
 #battery,
